@@ -9,6 +9,8 @@
 		args="[entityName]" /></title>
 </head>
 <body>
-	<div class="body"></div>
+	<div class="body">
+	<g
+	</div>
 </body>
 </html>
