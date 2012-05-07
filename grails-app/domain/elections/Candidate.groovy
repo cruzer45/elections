@@ -7,10 +7,9 @@ class Candidate {
 	Post post
 	Team team
 
-    static constraints = {
-    }
-    String toString()
-    {
-    	return firstName + " " + lastName
-    }
+	static constraints = {
+	}
+	String toString() {
+		return firstName + " " + lastName
+	}
 }

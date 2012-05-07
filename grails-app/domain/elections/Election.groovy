@@ -5,13 +5,12 @@ class Election {
 	String title
 	Date electionDate
 
-    static constraints = {
-    	title()
-    	electionDate()
-    }
+	static constraints = {
+		title()
+		electionDate()
+	}
 
-    String toString()
-    {
-    	return title
-    }
+	String toString() {
+		return title
+	}
 }

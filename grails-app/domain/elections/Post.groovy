@@ -9,6 +9,6 @@ class Post {
 
     String toString()
     {
- 		return titles   	
+		return title
     }
 }
