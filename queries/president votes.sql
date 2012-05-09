@@ -1,5 +1,5 @@
-SELECT CONCAT_WS(' ',first_name,last_name) as 'Candidate', COUNT(vote.id) as 'Votes'
+SELECT CONCAT_WS(' ',first_name,last_name) AS 'Candidate', COUNT(vote.id) AS 'Votes'
 FROM vote
-INNER JOIN candidate ON candidate.id = vote.president_id
-GROUP BY president_id
+INNER JOIN candidate ON candidate.id = vote.treasurer_id
+GROUP BY treasurer_id
 ORDER BY COUNT(vote.id) DESC

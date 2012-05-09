@@ -19,7 +19,7 @@ ORDER BY COUNT(vote.id) DESC]]>
 				<textElement verticalAlignment="Middle">
 					<font size="14" isBold="true"/>
 				</textElement>
-				<text><![CDATA[First Vice President Report]]></text>
+				<text><![CDATA[First Vice President Results]]></text>
 			</staticText>
 		</band>
 	</title>
