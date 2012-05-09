@@ -10,7 +10,9 @@
 </head>
 <body>
 	<div class="body">
-	<g
+		<g:jasperReport jasper="results"
+			format="PDF"
+			name="Election Results"/>
 	</div>
 </body>
 </html>
