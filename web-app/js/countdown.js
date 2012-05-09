@@ -7,7 +7,7 @@ Over 400+ free scripts here!
 //change below target URL to your own
 var targetURL = "/elections/"
 // change the second to start counting down from
-var countdownfrom = 1
+var countdownfrom = 10
 
 var currentsecond = document.redirect.redirect2.value = countdownfrom + 1
 function countredirect() {

@@ -12,7 +12,9 @@
 	<div class="body">
 		<g:jasperReport jasper="results"
 			format="PDF"
-			name="Election Results"/>
+			name="Election Results" > 
+			<input type="hidden" name="SUBREPORT_DIR" value="/home/mrogers/Projects/grails/elections/web-app/reports/"/>
+			</g:jasperReport>
 	</div>
 </body>
 </html>
