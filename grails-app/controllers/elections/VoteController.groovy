@@ -27,7 +27,8 @@ class VoteController {
         }
 
 		flash.message = message(code: 'default.created.message', args: [message(code: 'vote.label', default: 'Vote'), voteInstance.id])
-        redirect(action: "show", id: voteInstance.id)
+        //redirect(action: "show", id: voteInstance.id)
+		redirect(action: "voteSaved")
     }
 
     def show() {
@@ -102,6 +103,11 @@ class VoteController {
     }
 	
 	def results(){
+		
+	}
+	
+	def voteSaved()
+	{
 		
 	}
 }
