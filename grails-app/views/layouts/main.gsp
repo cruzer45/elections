@@ -27,10 +27,7 @@
 </head>
 <body>
 	<div id="grailsLogo" role="banner">
-		<a href="http://localhost:8080/elections/"> <img
-			src="${resource(dir: 'images', file: 'sjc-logo2.png')}" alt="Grails" />
-		</a>
-
+		<img src="${resource(dir: 'images', file: 'sjc-logo2.png')}" alt="Grails" />
 	</div>
 	<g:layoutBody />
 	<div class="footer" role="contentinfo"></div>
